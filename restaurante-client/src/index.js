@@ -14,6 +14,7 @@ const store = deepFreeze(createStore(
   rootReducer,
   composeWithDevTools(applyMiddleware(thunk))
 ));
+
 ReactDOM.render(
     <BrowserRouter>
         <Provider store={store}>

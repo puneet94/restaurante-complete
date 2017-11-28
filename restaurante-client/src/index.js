@@ -14,6 +14,8 @@ const store = deepFreeze(createStore(
   rootReducer,
   composeWithDevTools(applyMiddleware(thunk))
 ));
+console.log("********************");
+console.log(process.env.NODE_ENV);
 
 ReactDOM.render(
     <BrowserRouter>

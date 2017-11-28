@@ -1,5 +1,5 @@
 
-export const URL = process.env.NODE_ENV=='production'?"https://restaurante-complete.herokuapp.com":"https://restaurante-imanjithreddy.c9users.io/"; 
+export const URL = process.env.NODE_ENV=='production'?"https://restaurante-complete.herokuapp.com/":"https://restaurante-imanjithreddy.c9users.io/"; 
 
 export const UPDATE_ITEMS = "UPDATE_ITEMS";
 export const CREATE_ITEM = "CREATE_ITEM";

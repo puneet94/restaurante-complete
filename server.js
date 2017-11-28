@@ -24,13 +24,13 @@ console.log(process.env.DB_URL);
   });
 
 
-app.use(cors());
+app.use(cors());/*
 if (app.get('env') === 'production') {
   app.use(function(req, res, next) {
     var protocol = req.get('x-forwarded-proto');
     protocol == 'https' ? next() : res.redirect('https://' + req.hostname + req.url);
   });
-}
+}*/
 var orderRouter = require('./routes/order');
 var userRouter = require('./routes/user');
 var itemRouter = require('./routes/item');
